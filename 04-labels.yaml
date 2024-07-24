@@ -1,3 +1,4 @@
+#we give label to filter or select that pod for service or to run, explecit to work
 kind: Pod
 apiVersion: v1
 metadata:
