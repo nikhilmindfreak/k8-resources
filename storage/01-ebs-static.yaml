@@ -11,7 +11,7 @@ spec:
     driver: ebs.csi.aws.com
     fsType: ext4
     volumeHandle: vol-071b27f852a50e4d4 #create a ebs external and give the id
----
+--- # we give the line for different objects run each object one at a time and toggle rest
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
