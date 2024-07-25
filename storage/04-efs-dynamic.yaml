@@ -33,6 +33,7 @@ kind: Service
 metadata:
   name: efs-dynamic
 spec:
+  # type: LoadBalancer   #as we practice just toggled lb
   selector:
     purpose: efs-dynamic
   ports:
